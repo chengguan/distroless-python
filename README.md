@@ -17,3 +17,6 @@ __pycache__       requirements.txt  test.sh
 # ls
 Dockerfile        app.py            test.py           wsgi.py
 __pycache__       requirements.txt  test.sh
+
+# Inspect the layout of a docker image
+% docker image inspect d8e988f73df4
