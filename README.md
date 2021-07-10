@@ -13,4 +13,4 @@ docker run -p 80:80 --entrypoint=sh -ti hello-debug
 docker exec -ti <container id> sh 
 
 # Inspect the layout of a docker image
-docker image inspect d8e988f73df4
+docker image inspect <image id>
