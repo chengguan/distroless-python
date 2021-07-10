@@ -1,4 +1,4 @@
-FROM python:3-slim AS build
+FROM python:3.9-slim AS build
 ADD . /app
 COPY requirements.txt /
 WORKDIR /app
